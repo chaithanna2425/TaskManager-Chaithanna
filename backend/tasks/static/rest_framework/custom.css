@@ -1,0 +1,103 @@
+body {
+    background: #f7f3f9 !important;
+    color: #4a4458 !important;
+    font-family: Arial, sans-serif;
+}
+
+/* Top navigation */
+.navbar {
+    background: #d8c4e8 !important;
+    border-bottom: 2px solid #c5a9dc;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #493b57 !important;
+    font-weight: 600;
+}
+
+/* Main content */
+.container {
+    color: #4a4458;
+}
+
+/* Cards and forms */
+.well,
+.card,
+form {
+    background: #fffafc !important;
+    border: 1px solid #e5d6e9 !important;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(100, 80, 110, 0.08);
+}
+
+/* JSON/code area */
+pre {
+    background: #f1edf7 !important;
+    color: #514660 !important;
+    border: 1px solid #ddd0e8 !important;
+    border-radius: 8px;
+}
+
+/* Primary buttons */
+.btn-primary {
+    background: #a8c7e8 !important;
+    border-color: #94b9df !important;
+    color: #26384a !important;
+    border-radius: 7px;
+}
+
+.btn-primary:hover {
+    background: #91b6dc !important;
+}
+
+/* Delete button */
+.btn-danger {
+    background: #e9a9b0 !important;
+    border-color: #dc929b !important;
+    color: #542d32 !important;
+    border-radius: 7px;
+}
+
+/* Links */
+a {
+    color: #8064a2 !important;
+}
+
+/* Input boxes */
+input,
+textarea,
+select {
+    background: #fffdfd !important;
+    color: #4a4458 !important;
+    border: 1px solid #d8c9df !important;
+    border-radius: 7px;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #b99acb !important;
+    outline: none;
+}
+
+/* Tables */
+table {
+    background: #fffafc !important;
+}
+
+th {
+    background: #e8dff0 !important;
+    color: #493b57 !important;
+}
+
+td {
+    border-color: #eadfea !important;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+    color: #665276 !important;
+}
