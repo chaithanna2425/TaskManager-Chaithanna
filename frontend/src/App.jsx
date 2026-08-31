@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API_URL = "http://127.0.0.1:8000/api/tasks/";
-const AUTH_URL = "http://127.0.0.1:8000/api/auth/";
+const API_URL = "https://task-manager-backend-wabn.onrender.com/api/tasks/";
+const AUTH_URL = "https://task-manager-backend-wabn.onrender.com/api/auth/";
 
 const getDueDateText = (dueDate, status) => {
   if (!dueDate) return "";
